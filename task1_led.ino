@@ -1,5 +1,6 @@
 #include "task1.h"
 #include "task2.h"
+#include "task3.h"
 
 void nothing_i(unsigned long j)
 {
@@ -15,6 +16,7 @@ void setup() {
   // put your setup code here, to run once:
   setup_task1();
   setup_task2();
+  setup_task3();
   nothing_i(2000000);
 }
 
